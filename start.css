@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8bc7d7;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.button {
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #6788ba;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #3b4683;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.CloudOne {
+    transform: scale(0.2);
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 1100px;
+    animation: float 10s infinite ease-in-out;
+}
+
+.CloudTwo {
+    transform: scale(0.1);
+    position: absolute;
+    margin-right: 700px;
+    margin-top: 200px;
+    animation: float 12s infinite ease-in-out;
+
+}
+
+.CloudThree {
+    transform: scale(0.01);
+    position: absolute;
+    margin-left: 800px;
+    animation: float 14s infinite ease-in-out;
+}
+
+.CloudFour {
+    transform: scale(0.06);
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 240px;
+    animation: float 16s infinite ease-in-out;
+}
+
+/* Keyframes for floating animation */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(0.2);
+    }
+
+    50% {
+        transform: translateY(-20px) scale(0.2);
+    }
+}

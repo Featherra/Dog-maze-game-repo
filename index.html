@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Maze Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <canvas id="gameCanvas"></canvas>
+
+        <div id="pauseMenu">
+            <h1>Dog Maze</h1>
+            <button id="resumeButton">Resume</button>
+            <button id="mainMenuButton">Main Menu</button>
+            <button id="quitButton">Quit</button>
+        </div>
+    </div>
+    <div class="instructions">
+        <button id="helpButton" class="button">Help</button>
+    </div>
+
+    <div id="helpModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 class="HTP">How to Play</h2>
+            <p class="text">Navigate through the maze to find your bone!<br>Use the arrow keys move around.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

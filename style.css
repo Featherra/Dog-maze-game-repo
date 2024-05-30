@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Center the container horizontally */
+    align-items: center;
+    /* Center the container vertically */
+    height: 100vh;
+    background-image: url(Images/grass_template.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid rgb(34, 72, 45);
+    /* Center the canvas horizontally within the container */
+}
+
+#pauseMenu {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#pauseMenu h1 {
+    margin-bottom: 20px;
+}
+
+#pauseMenu button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e6e38;
+    color: white;
+}
+
+#pauseMenu button:hover {
+    background-color: #155724;
+}
+
+.button {
+    margin-left: 10px;
+    margin-bottom: 588px;
+    background-color: #155724;
+    border: 2px solid #020202;
+    /* Custom border color */
+    color: white;
+}
+
+.HTP {
+    color: rgb(246, 241, 241);
+
+}
+
+.close-button {
+    color: rgb(240, 236, 236);
+    border: 2px solid black;
+    background-color: #155724;
+}
+
+.text {
+    color: white;
+}
